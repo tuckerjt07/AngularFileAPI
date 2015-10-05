@@ -1,0 +1,20 @@
+<html>
+
+<head>
+</head>
+
+<body ng-app="AngularFileAPI">
+    <div ng-controller="MainCtrl as main">
+        <input type="file" file-input-change="main.singleFileAdded" />
+    </div>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <!-- endbower -->
+    <!-- include: "type": "js", "files": "src/**/*.js" -->
+    <script src="src/app.js"></script>
+    <script src="src/events.directive.js"></script>
+    <script src="src/main.controller.js"></script>
+    <!-- /include -->
+</body>
+
+</html>
